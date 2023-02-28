@@ -1,7 +1,7 @@
 
-  # hdbv
+  # Read me Generator
 ## Description
-hbv
+This project is designed to promptly write up a read me for the user by asking a few questions.
 ## Table Of Contents
  * [Installation](#Installation)
  * [Usage](#Usage)
@@ -11,14 +11,14 @@ hbv
  * [Questions](#Questions)
  
 ## Installation
-kdhjbf
+Firstly make sure you have node.js on your machine then go ahead and download my code. When my code is downloaded, extract my code, then you will have to install the inquirer npm by typing `npm I inquirer` in the terminal, this will download some node modules and you will be able to run my program by typing `node index.mjs` In the terminal.
 ## How is your project used?
-dkfjb
+my project is used in the terminal by typing `node index.mjs`
 ## license
-MIDDLEWARE
+
 ## Contributors
-kbvf
+@ar871
 ## Tests
-bsd
+no test needed
 ## Questions
-Any questions about this project please send me a message on <a href="https://github.com/vkjsdb">vkjsdb</a> or email me at [ndfkjbv](mailto:ndfkjbv)
+Any questions about this project please send me a message on <a href="https://github.com/ar871">ar871</a> or email me at [arehman871@hotmail.com](mailto:arehman871@hotmail.com)
