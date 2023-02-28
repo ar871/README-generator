@@ -59,21 +59,22 @@ const {
     message: "what is your email address?",
   },
 ]);
+const gitHubUser = `https://github.com/${github}`
+const licenseShield = `![GitHub](https://img.shields.io/github/license/${github}/${title}?style=for-the-badge)`
 
-console.log(title,
-  description,
-  installation,
-  usage,
-  license,
-  contributor,
-  test,
-  github,
-  email,)
-
-  const readMe = `
+const readMe = `
   # ${title}
+  ## ${licenseShield}
 ## Description
 ${description}
+## Table Of Contents
+ * [Installation](#Installation)
+ * [Usage](#Usage)
+ * [license](#License)
+ * [Contributor](#Contributor)
+ * [Test](#Test)
+ * [Questions](#Questions)
+ 
 ## Installation
 ${installation}
 ## How is your project used?
@@ -85,6 +86,6 @@ ${contributor}
 ## Tests
 ${test}
 ## Questions
-Any questions about this project please send me a message on https://github.com/${github} or email me at [${email}](mailto:${email})
-`
-await fs.writeFile('README.md', readMe);
+Any questions about this project please send me a message on <a href="${gitHubUser}">${github}</a> or email me at [${email}](mailto:${email})
+`;
+await fs.writeFile("README.md", readMe);
