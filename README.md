@@ -15,10 +15,10 @@ Firstly make sure you have node.js on your machine then go ahead and download my
 ## How is your project used?
 my project is used in the terminal by typing `node index.mjs`
 ## license
-
+NONE
 ## Contributors
 @ar871
 ## Tests
-no test needed
+no test/ walkthrough needed straightforward
 ## Questions
-Any questions about this project please send me a message on <a href="https://github.com/ar871">ar871</a> or email me at [arehman871@hotmail.com](mailto:arehman871@hotmail.com)
+Any questions about this project please send me a message on <a href="https://github.com/ar871">ar871</a> or email me at [arehman@hotmail.com](mailto:arehman@hotmail.com)
