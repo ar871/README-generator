@@ -60,11 +60,10 @@ const {
   },
 ]);
 const gitHubUser = `https://github.com/${github}`
-const licenseShield = `![GitHub](https://img.shields.io/github/license/${github}/${title}?style=for-the-badge)`
+//const licenseShield = `![GitHub](https://img.shields.io/github/license/${github}/${title}?style=for-the-badge)`
 
 const readMe = `
   # ${title}
-  ## ${licenseShield}
 ## Description
 ${description}
 ## Table Of Contents
